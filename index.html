@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header id="nav-header">
+            <img src="/gambar/python-removebg-preview.png" alt="logo" class="logo">
+            <h1>Python Documentation</h1>
+            <p>Ayo belajar bahasa pemrorgraman python!</p>
+            <hr>
+        </header>
+        <a href="#python_introduction" class="nav-link">Python Introduction</a>
+        <a href="#python_syntax" class="nav-link">Python Syntax</a>
+        <a href="#python_variables" class="nav-link">Python Variables</a>
+        <a href="#python_data_types" class="nav-link">Python Data Types</a>
+        <a href="#python_if_else" class="nav-link">Python If Else</a>
+        <a href="#python_operators" class="nav-link">Python Operators</a>
+        <a href="#python_function" class="nav-link">Python Function</a>
+    </nav>
+    <main id="main-doc">
+        <!--INTRODUCTION-->
+        <section class="main-section" id="python_introduction">
+            <header id="python_introduction">
+                <h2>Python Introduction</h2>
+            </header>
+            <h4>Apa itu Python?</h4>
+            <p>Python merupakan bahasa pemrograman yang populer. Bahasa Pemrograman ini dibuat oleh Guido van Rossum, dan dirilis pada tahun 1991.</p>
+            <p>Python bisa digunakan untuk :</p>
+            <ul>
+                <li>Web Development (untuk server)</li>
+                <li>Software Development</li>
+                <li>Matematika</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+            </ul>
+            <h4>Apa yang bisa Phyton lakukan?</h4>
+            <p>Berikut merupakan beberapa hal yang bisa dilakukan dengan menggunakan bahasa pemrograman Python :</p>
+            <ul>
+                <li>Python dapat digunakan di server untuk membuat aplikasi web</li>
+                <li>Python dapat digunakan bersama perangkat lunak untuk membuat alur kerja</li>
+                <li>Python dapat terhubung ke sistem basis data. Itu juga dapat membaca dan memodifikasi file</li>
+                <li>Python dapat digunakan untuk menangani data besar dan melakukan matematika yang rumit</li>
+                <li>Python dapat digunakan untuk pembuatan prototipe cepat, atau untuk pengembangan perangkat lunak siap produksi.</li>
+            </ul>
+        </section>
+        <!--PYTHON SYNTAX-->
+        <section class="main-section" id="python_syntax">
+            <header id="python_syntax">
+                <h2>Python Syntax</h2>
+            </header>
+                <h4>Mengeksekusi sintaks python</h4>
+                    <p>Untuk mengeksekusi sintaks python, langkah paling awal untuk mengenal sintaks dari python adalah sebagai berikut : </p>
+                    <div class="code">
+                        <code>
+                            <p>print("Hello, World!")</p>
+                        </code>
+                    </div>
+                    <p>Maka output yang akan muncul setelah mengeksekusi kode diatas adalah</p>
+                    <p>Hello, world!</p>
+                <h4>Phyton Comments</h4>
+                    <p>Python memiliki kemampuan berkomentar untuk keperluan dokumentasi dalam kode.</p>
+                    <p>Dimulai dengan #, dan Python akan merender sisa baris sebagai komentar:</p>
+                    <div class="code">
+                        <code>
+                            <p>#Ini adalah sebuah komentar</p>
+                            <p>print("Hello, World!")</p> 
+                        </code>
+                    </div>
+                    <p>Berdasarkan contoh diatas, baris yang didahulukan dengan tanda "#" tidak akan dieksekusi,</p>
+                    <p>dan hal tersebut (comments) hanya sebagai keperluan dokumentasi.</p>
+        </section>
+        <!--PYTHON VARIABLES-->
+        <section class="main-section" id="python_variables">
+            <header id="python_variables">
+                <h2>Python Variables</h2>
+            </header>
+                <h4>Variabel</h4>
+                    <p>Variabel adalah sebuah entitas yang digunakan untuk menyimpan dan mengakses data atau nilai dalam suatu program.</p> 
+                    <p>Variabel memiliki nama yang unik, sehingga Anda bisa mengakses nilai yang disimpan di dalamnya dengan menggunakan nama variabel tersebut.</p>
+                <h4>Membuat Variabel</h4>
+                    <p>Python tidak memiliki perintah untuk mendeklarasikan variabel.</p>
+                    <p>Variabel dibuat saat Anda pertama kali memberikan nilai padanya.</p>
+                    <p>Contoh :</p>
+                    <div class="code">
+                        <code>
+                            <p>x = 5</p>
+                            <p>y = "Joko"</p>
+                            <p>print(x)</p>
+                            <p>print(y)</p>
+                        </code>
+                    </div>
+                    <p>Berdasarkan kode diatas, "x" dan "y" tersebutlah yang biasa disebut variabel, anda bisa memberi nama variabel sesuka anda.</p>
+                    <p>Asalkan nama variabel tersebut tidak sama dengan nama sintaks yang ada.</p>
+                <h4>Casting</h4>
+                        <p>Casting adalah proses konversi tipe data dari satu tipe ke tipe lain.</p>
+                        <p>Dalam bahasa pemrograman Python, casting biasanya dilakukan dengan menggunakan fungsi built-in seperti int(), str(), dan float().</p>
+                        <p>Misalnya, jika Anda ingin mengkonversi bilangan bulat 2 ke tipe string, Anda dapat menggunakan str(2), yang akan mengembalikan string "2".</p>
+                        <p>Contoh :</p>
+                        <div class="code">
+                            <code>
+                                <p>x = str(3), maka angka 3 tersebut akan berubah menjadi "3"</p>
+                                <p>y = int(3), maka angka tersebut akan menjadi 3</p>
+                                <p>z = float(3), maka angka tersebut akan menjadi 3.0</p>
+                            </code>
+                        </div>
+        </section>
+        <!--PYTHON DATA TYPES-->
+        <section class="main-section" id="python_data_types">
+            <header id="python_data_types">
+                <h2>Python Data Types</h2>
+            </header>
+                <h4>Tipe Data</h4>
+                    <p>Tipe data adalah kategori data yang menentukan bagaimana data tersebut dapat diproses dan digunakan dalam suatu program.</p>
+                    <p>Dalam bahasa pemrograman Python, beberapa tipe data yang umum digunakan termasuk string, integer, float, dan boolean. </p>
+                    <p>Tipe data string digunakan untuk menyimpan teks, tipe integer digunakan untuk menyimpan bilangan bulat, tipe float digunakan untuk menyimpan bilangan pecahan, dan tipe boolean digunakan untuk menyimpan nilai benar atau salah (true atau false). Penggunaan tipe data yang tepat sangat penting untuk menulis program yang efisien dan mudah dibaca.</p>
+                <h4>Mendapatkan Tipe Data</h4>
+                    <p>Anda bisa mendapatkan tipe data dari objek apapun dengan menggunakan fungsi type() :</p>
+                    <p>Contoh :</p>
+                    <p><i>Cetaklah tipe data dari variabel y</i></p>
+                    <div class="code">
+                        <code>
+                            <p>y = 11</p>
+                            <p>print(type(y))</p>
+                        </code>
+                    </div>
+                    <p>Setelah mengetikkan baris kode diatas, akan muncul output sesuai tipe data yang ada.</p>
+        </section>
+        <!--PHYTON IF ELSE-->
+        <section class="main-section" id="python_if_else">
+            <header id="python_if_else">
+                <h2>Python If Else</h2>
+            </header>
+                <h4>Python Condition and If Statements</h4>
+                    <p>Python mendukung kondisi logis yang biasa dari matematika :</p>
+                    <ul>
+                        <li>Sama dengan : a == b</li>
+                        <li>Tidak sama dengan : a != b</li>
+                        <li>Lebih dari : a > b</li>
+                        <li>Kurang dari : a < b</li>
+                        <li>Lebih dari sama dengan : a >= b</li>
+                        <li>Kurang dari sama dengan : a <= b</li>
+                    </ul>
+                    <p>Pernyataan if dalam Python adalah sebuah pernyataan yang memungkinkan Anda untuk mengeksekusi kode yang berbeda tergantung pada kondisi yang terpenuhi.</p>
+                    <p>Pernyataan if terdiri dari blok kode yang akan dijalankan jika kondisi yang diberikan bernilai True. </p>
+                    <p>contoh :</p>
+                    <p><i>If statement</i></p>
+                    <div class="code">  
+                        <code>
+                            <p>a = 20</p>
+                            <p>b = 30</p>
+                            <p>if b > a</p>
+                            <p>print("b lebih besar dari a")</p>
+                        </code>
+                    </div>                    
+                <h4>Else</h4>
+                    <p>Kata kunci else menangkap apapun yang tidak tertangkap oleh kondisi sebelumnya.</p>
+                    <p>Pernyataan else dalam Python adalah sebuah pernyataan yang digunakan bersama dengan pernyataan if untuk mengeksekusi kode yang berbeda tergantung pada kondisi yang terpenuhi.</p>
+                    <p>Pernyataan else terdiri dari blok kode yang akan dijalankan jika kondisi yang diberikan bernilai False.</p>
+                    <p>Contoh :</p>
+                    <p><i>Else Statement</i></p>
+                    <div class="code">
+                        <code>
+                            <p>a = 20</p>
+                            <p>b = 30</p>
+                            <p>if b > a:</p>
+                            <p>print("b lebih besar dari a")</p>
+                            <p>else</p>
+                            <p>print("a lebih besar dari b")</p>
+                        </code>
+                    </div>
+                <h4>Elif</h4>
+                    <p>Kata kunci elif adalah cara python untuk mengatakan "jika kondisi sebelumnya tidak benar, maka coba kondisi ini".</p>
+                    <p>Contoh :</p>
+                    <p><i>Elif Statement</i></p>
+                    <div class="code">
+                        <code>
+                            <p>a = 10</p>
+                            <p>b = 10</p>
+                            <p>if a > b:</p>
+                            <p>print("a lebih dari b")</p>
+                            <p>elif a == b:</p>
+                            <p>print("a sama dengan b")</p>
+                        </code>
+                    </div>
+        </section>
+        <!--PYTHON OPERATORS-->
+        <section class="main-section" id="python_operators">
+            <header id="python_operators">
+                <h2>Python Operators</h2>
+            </header>
+                <p>Operator digunakan untuk melakukan operasi pada variabel dan nilai.</p>
+                <p>Python membagi operator dalam grup berikut:</p>
+                <ul>
+                    <li>Arithmetic Operator (Operator Aritmatika)</li>
+                    <li>Assignment Operator</li>
+                    <li>Comparison Operator</li>
+                    <li>Logical Operator</li>
+                </ul>
+                <h4>Operator Aritmatika</h4>
+                    <p>Operator aritmatika digunakan dengan nilai numerik untuk melakukan operasi matematika umum:</p>
+                    <p>Berikut adalah contohnya :</p>
+                    <ul>
+                        <li>
+                            <div class="code">
+                                <p>Pertambahan ("+")</p>
+                                <p>Contoh :</p>                            
+                                    <code>
+                                        <p>x + y</p> 
+                                    </code>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Pengurangan ("-")</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x - y</p>
+                                    </code>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Perkalian ("*")</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x * y</p>
+                                    </code>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Pembagian ("/")</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x / y</p>
+                                    </code>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Modulus ("%")</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x % y</p>
+                                    </code>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Perpangkatan ("**")</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x ** y</p>
+                                    </code>
+                            </div>                            
+                        </li>
+                        <li>
+                            <div class="code">
+                                <p>Pembagian terdekat (//)</p>
+                                <p>Contoh :</p>
+                                    <code>
+                                        <p>x // y</p>
+                                    </code>
+                            </div>
+                        </li>
+                    </ul>
+                <h4>Assignment Operator</h4>
+                    <p>Operator penugasan digunakan untuk menetapkan nilai ke variabel:</p>
+                    <ul>
+                        <li>
+                            <p>
+                                "=", Contoh: <div class="code"><code>x = y</code></div>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                "+=", Contoh: <div class="code"><code>x += y</code></div>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                "-=", Contoh: <div class="code"><code>x -= y</code></div>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                "*-", Contoh <div class="code"><code>x *- y</code></div>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                "/=", Contoh: <div class="code"><code>x /= y</code></div>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                "%=", Contoh: <div class="code"><code> x %= y</code></div>
+                            </p>
+                        </li>
+                    </ul>
+                    <p>Dan masih banyak operator assignment lainnya, kalian bisa belajar dan mencarinya sendiri.</p>
+                <h4>Comparison Operator</h4>
+                    <p>Operator perbandingan digunakan untuk membandingkan dua nilai:</p>
+                    <ul>
+                        <li>
+                            <p>Sama dengan (==)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x == y</code>
+                                </p>
+                            </div>                            
+                        </li>
+                        <li>
+                            <p>Tidak sama dengan (!=)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x != y</code>
+                                </p>
+                            </div>                              
+                        </li>
+                        <li>
+                            <p>Lebih dari (>)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x > y</code>
+                                </p>
+                            </div>                            
+                        </li>
+                        <li>
+                            <p>Kurang dari (<)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x < y</code>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Lebih dari sama dengan (>=)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x >= y</code>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Kurang dari sama dengan (<=)</p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <p>
+                                    <code>x <= y</code>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                <h4>Logical Operator</h4>
+                    <p>Operator logika digunakan untuk menggabungkan pernyataan bersyarat:</p>
+                    <ul>
+                        <li>
+                            <p><b>Operator AND</b></p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <code>
+                                    x < 5 and x < 10
+                                </code>
+                            </div>
+                            <p>Artinya : "Kembalikan nilai True jika kedua pernyataan benar"</p>
+                        </li>    
+                        <li>
+                            <p><b>Operator OR</b></p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <code>
+                                    x < 5 or x < 4
+                                </code>
+                            </div>
+                            <p>Artinya : "Kembalikan nilai True jika salah satu pernyataan benar"</p>
+                        </li>
+                        <li>
+                            <p><b>Operator NOT</b></p>
+                            <p>Contoh :</p>
+                            <div class="code">
+                                <code>
+                                    not(x < 5 and x < 10)
+                                </code>
+                            </div>
+                            <p>Artinya : "Balikkan hasilnya, kembalikan nilai false jika hasilnya benar"</p>
+                        </li>
+                    </ul>
+        </section>
+        <!--PYTHON FUNCTION-->
+        <section class="main-section" id="python_function">
+            <header id="python_function">
+                <h2>Python Function</h2>
+            </header>
+                <p>Fungsi adalah blok kode yang hanya berjalan saat dipanggil.</p>
+                <p>Anda dapat meneruskan data, yang dikenal sebagai parameter, ke dalam suatu fungsi.</p>
+                <p>Suatu fungsi dapat mengembalikan data sebagai hasilnya.</p>
+                <h4>Membuat sebuah Function</h4>
+                    <p>Dalam Python, sebuah fungsi didefinisikan menggunakan kata kunci def:</p>
+                    <p>Contoh :</p>
+                    <div class="code">
+                        <code>
+                            <p>def my_function():</p>
+                            <p>print("Hello from a function")</p>
+                        </code>
+                    </div>
+                <h4>Memanggil sebuah Function</h4>
+                    <p>Untuk memanggil fungsi, gunakan nama fungsi diikuti dengan tanda kurung:</p>
+                    <p>Contoh :</p>
+                    <div class="code">
+                        <code>
+                            <li>def my_function()</li>
+                            <p>print("Hello from a function")</p>
+                            <br>
+                            <li>my_function()</li>
+                        </code>
+                    </div>
+        </section>
+    </main>
+</body>
+</html>
